@@ -1,53 +1,162 @@
 body {
-  width: 1200px;
+  width: 90%;
+  min-width: 1000px;
   margin: auto;
+  background-color: #f7c59a;
 }
 
 nav {
-  display: block;
   position: fixed;
-  top: 0%;
-  width: 280px;
+  top: 20px;
+  right: 0;
   background-color: aliceblue;
+  border-width: 5px;
+  border-style: groove;
+  border-radius: 10px;
 }
 
-#top, h2, main {
-  margin-left: 300px;
+ul:first-child {
+  padding: 10px;
+  list-style-type: none;
 }
 
-#top {
-  border: 2px dotted #f2f701;
-  background-color: #2A2E3A;
-  margin-bottom: 50px;
-  color: #FFEBA8;
-  min-height: 299px;
+ul {
+  list-style-type: square;
 }
 
-img {
-  float: left;
+a {
+  color: slateblue;
+  text-decoration-line: none;
+}
+
+.top, h1, main {
+  margin-right: 150px;
+}
+
+.top {
+  min-height: 319px;
+  margin-top: 20px;
   padding-right: 10px;
+  font-style: italic;
+  color: #FFEBA8;
+  background-color: #2A2E3A;
+  border: 3px dashed #9900ff;
+  border-radius: 10px;
 }
 
-h2 {
-  color: brown;
+.top img {
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+h1, h2 {
   text-align: center;
 }
 
-h3 {
-  color: darkblue;
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  text-decoration-line: underline;
+}
+
+.chapter-1 h2 {
+  color: #0000ff;
+}
+
+.chapter-2 h2 {
+  color: #ffee00;
+}
+
+.chapter-3 h2 {
+  color: #73ff00b0;
+}
+
+.chapter-4 h2 {
+  color: #f700ff;
+}
+
+.chapter-5 h2 {
+  color: #ff0000;
+}
+
+.image {
+  text-align: center;
+}
+
+section:not(:first-child) {
+  margin-top: 60px;
 }
 
 section {
-  margin-top: 60px;
-  border-bottom: 2px solid #808080;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #800000;
+  border: 5px double #808080;
+  border-radius: 10px;
+}
+
+.chapter-1 {
+  color: #0B1419;
+  background-color: #E0DADA;
+}
+
+.chapter-2 {
+  color: #DBCCAD;
+  background-color: #191410;
+}
+
+.chapter-3 {
+  color: #CCAB80;
+  background-color: #464847;
+}
+
+.chapter-4 {
+  color: #93d0ff;
+  background-color: #152D45;
+}
+
+.chapter-5 {
+  color: #0D0B06;
+  background-color: #C3AF96;
+}
+
+.chapter-1 p:nth-of-type(3) {
+  text-decoration-line: underline;
+}
+
+.chapter-2 p:nth-of-type(8) {
+  text-decoration-line: line-through;
+}
+
+.chapter-3 p:nth-of-type(4) {
+  font-weight: bold;
+}
+
+.chapter-4 p:nth-of-type(9) {
+  text-decoration-line: overline;
+}
+
+.chapter-5 p:nth-of-type(3) {
+  font-style: oblique;
 }
 
 .notice {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
   background-color: #ffd700;
 }
 
 .link-top {
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 50px;
+  text-align: center;
+}
+
+.link-top a {
+  color: darkolivegreen;
 }
