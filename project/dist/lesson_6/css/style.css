@@ -1,54 +1,52 @@
 body {
   box-sizing: border-box;
-  min-width: 991px;
   background-color: #f6f6f6;
 }
 
 .card-product {
   position: relative;
-  top: 96px;
-  width: 84%;
-  max-width: 1008px;
+  top: 86px;
+  width: 1008px;
+  height: 501px;
   margin: 0 auto;
-  border: 1px solid #c4c4c4;
   background-color: #ffffff;
+  border: 1px solid #c4c4c4;
 }
 
 .image-product,
 .product-description {
+  position: absolute;
   display: inline-block;
-  width: 40%;
-  vertical-align: middle;
+  width: 50%;
 }
 
 .image-product {
-  margin: 5% 0 5% 4%;
+  top: 64px;
+  left: 48px;
+  width: 376px;
 }
 
 .product-description {
-  margin: 5% 0 5% 5%;
-}
-
-.image {
-  width: 100%;
+  top: 94px;
+  left: 523px;
 }
 
 h1 {
-  margin-bottom: 7%;
+  margin: 0 0 30px 0;
   font-size: 16pt;
 }
 
 .description p {
-  margin-bottom: 15%;
+  margin: 0 93px 55px 0;
 }
 
 .cost {
-  margin: 7% 0 15% 0;
+  margin: 23px 0 56px 0;
   font-size: 18pt;
 }
 
 button {
-  width: 252px;
+  width: 250px;
   height: 50px;
   font-size: 14pt;
   color: #ffffff;
