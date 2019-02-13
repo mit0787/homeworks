@@ -1,0 +1,36 @@
+body {
+  background-color: #f6f6f6;
+  
+}
+
+main {
+  position: relative;
+  max-width: 1010px;
+  margin: 86px auto;
+  padding: 64px 48px;
+  border: 1px solid grey;
+  background-color: #ffffff;
+}
+
+main::after {
+  content: "";
+  clear: both;
+}
+
+
+.image {
+  display: inline-block;
+  position: absolute;
+  top: 64px;
+  left: 48px;
+  width: 30%;
+  
+}
+
+.product {
+  display: inline-block;
+  position: absolute;
+  top: 94px;
+  right: 93px;
+  width: 50%;
+}
