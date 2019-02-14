@@ -1,15 +1,24 @@
-body {
+* {
   box-sizing: border-box;
+}
+
+body {
   min-width: 991px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   background-color: #f6f6f6;
 }
 
 .card-product {
   position: relative;
-  top: 96px;
+  top: 50%;
+  margin-top: -250px;
   width: 84%;
   max-width: 1008px;
-  margin: 0 auto;
+  height: 501px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #c4c4c4;
   background-color: #ffffff;
 }
@@ -17,34 +26,34 @@ body {
 .image-product,
 .product-description {
   display: inline-block;
-  width: 40%;
+  width: 49%;
   vertical-align: middle;
-}
-
-.image-product {
-  margin: 5% 0 5% 4%;
-}
-
-.product-description {
-  margin: 5% 0 5% 5%;
+  text-align: center;
 }
 
 .image {
-  width: 100%;
+  margin: 64px 0;
+  width: 80%;
 }
 
-h1 {
-  margin-bottom: 7%;
-  font-size: 16pt;
+h1, p, .cost, .buscket {
+  text-align: left;
+}
+
+h1 {  
+  font-size: 18pt;
+  margin-bottom: 23px;
 }
 
 .description p {
-  margin-bottom: 15%;
+  width: 80%;
+  margin-bottom: 55px;
 }
 
 .cost {
-  margin: 7% 0 15% 0;
   font-size: 18pt;
+  margin-top: 0;
+  margin-bottom: 55px;
 }
 
 button {
