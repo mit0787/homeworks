@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   min-width: 991px;
   height: 100vh;
-  margin: 0;
-  padding: 0;
   background-color: #f6f6f6;
 }
 
@@ -16,7 +16,6 @@ body {
   margin-top: -250px;
   width: 84%;
   max-width: 1008px;
-  height: 501px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid #c4c4c4;
@@ -26,14 +25,23 @@ body {
 .image-product,
 .product-description {
   display: inline-block;
-  width: 49%;
+  width: 50%;
   vertical-align: middle;
   text-align: center;
+}
+
+.image-product {
+  margin-right: -4px;
 }
 
 .image {
   margin: 64px 0;
   width: 80%;
+  max-width: 376px;
+}
+
+.product-description {
+  padding-left: 23px;
 }
 
 h1, p, .cost, .buscket {
