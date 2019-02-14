@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 1140px;
+  margin: 0 auto;
+  background: url(/project/dist/lesson_7/img/background.png) center repeat-y;
+}
+
+.book{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 77px 10px 0 10px;
+}
+
+.image {
+  flex-basis: 479px;
+}
+
+.book-info {
+  flex-basis: 541px;
+  flex-grow: 2;
+}
+
+h1 {
+  font-size: 38pt;
+}
+
+.author {
+  font-size: 22pt;
+  margin-top: 14px;
+}
+
+.description {
+  width: 541px;
+  font-size: 14pt;
+  margin-top: 43px;
+}
+
+.price {
+  font-size: 38pt;
+  margin-top: 43px;
+}
+
+.purchase, .details {
+  height: 67px;
+  margin-top: 53px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.purchase {
+  width: 175px;
+  color: #fff;
+  background-color: #f15921;
+  border: 0;
+}
+
+.details {
+  width: 287px;
+  margin-left: 40px;
+  color: #f15921;
+  background: 0;
+  border: 2px solid #f15921;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 408px;
+  margin-top: 96px;
+  background-color: gray;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.delivery, .buyers {
+  text-align: center;
+}
+
+.delivery-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.options {
+  flex-basis: 256px;
+}
+
+h2 {
+  margin-top: 185px;
+  font-size: 24pt;
+}
+
+.gallary {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 68px;
+}
+
+.photos {
+  flex-basis: 261px;
+  padding-bottom: 40px;
+}
+
+.selfi {
+  object-fit: cover;
+  height: 261px;
+}
