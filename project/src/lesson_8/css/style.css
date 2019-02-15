@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 1050px;
+  font-family: sans-serif;
+  color: #32325f;
+}
+
+.container {
+  max-width: 1140px;
+  
+  width: 96%;
+  margin: 0 auto;
+}
+
+.main-bar,
+.book,
+.features-wrap,
+.gallery,
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 76px;
+  padding-bottom: 191px;
+  background-color: #f4f5f7;
+}
+
+.main-bar {
+  text-transform: uppercase;
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.social a {
+  margin-left: 20px;
+}
+
+.book {
+  margin-top: 159px;
+  align-items: center;
+}
+
+.book-info {
+  width: 50%;
+}
+
+.subtitle {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  display: block;
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.price-tag {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.price {
+  margin-top: 20px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.buttons {
+  margin-top: 49px;
+}
+
+.btn {
+  padding: 21px 31px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 3px 6px #adadad29;
+  border-radius: 6px;
+  background-color: #2dce89;
+}
+
+.btn-audio {
+  margin-left: 30px;
+  background-color: #5e72e4;
+}
+
+.about {
+  padding-top: 90px;
+  padding-bottom: 131px;
+}
+
+.features-wrap {
+  padding-top: 99px;
+}
+
+.feature {
+  flex-basis: 258px;
+}
+
+.feature p {
+  margin-top: 40px;
+}
+
+.buyers {
+  padding-top: 90px;
+  padding-bottom: 76px;
+  background-color: #f4f5f7;
+}
+
+.gallery {
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+
+.photo {
+  flex-basis: 362px;
+  margin-bottom: 36px;
+  background-color: #fff;
+}
+
+.photo img {
+  object-fit: cover;
+  height: 254px;
+}
+
+.footer {
+  background-color: #32325f;
+}
+
+.footer-wrap {
+  justify-content: flex-start;
+  padding-top: 78px;
+  padding-bottom: 104px;
+  color: #ffffff;
+}
+
+.footer-block {
+  flex-basis: 33%;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-block p {
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.footer-block a {
+  display: block;
+  color: #ffffff;
+}
