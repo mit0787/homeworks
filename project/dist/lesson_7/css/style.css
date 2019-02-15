@@ -92,8 +92,10 @@ h1 {
   justify-content: space-between;
   margin-top: 90px;
 }
+
 .options {
   flex-basis: 256px;
+  align-self: flex-end;
 }
 
 h2 {
