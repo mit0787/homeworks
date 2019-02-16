@@ -1,30 +1,30 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 1050px;
 }
 
-main {
-  width: 1140px;
+.container {
+  max-width: 1140px;
+  width: 96%;
   margin: 0 auto;
 }
 
-.book{
+.book .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 77px 10px 0 10px;
+  padding: 77px 10px 96px 10px;
 }
 
 .image {
   flex-basis: 479px;
 }
 
-.book-info {
+.book-wrapper {
   flex-basis: 541px;
   flex-grow: 2;
 }
@@ -72,19 +72,17 @@ h1 {
   border: 2px solid #f15921;
 }
 
-.container {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 408px;
-  margin-top: 96px;
-  background-color: gray;
-  opacity: 0.3;
-  z-index: -1;
-}
-
 .delivery, .buyers {
   text-align: center;
+}
+
+.delivery {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.delivery {
+  padding: 89px 0 99px 0;
 }
 
 .delivery-options {
@@ -98,16 +96,23 @@ h1 {
   align-self: flex-end;
 }
 
+.options img {
+  max-height: 50px;
+}
+
 h2 {
-  margin-top: 185px;
   font-size: 24pt;
+}
+
+.buyers {
+  padding: 89px 0px 62px 0;
 }
 
 .gallary {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 68px;
+  margin-top: 68px;
 }
 
 .photos {

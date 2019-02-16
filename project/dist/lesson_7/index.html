@@ -6,29 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Книжный магазин</title>
+  <link rel="stylesheet" href="/project/dist/lesson_7/css/reset.css">
   <link rel="stylesheet" href="/project/dist/lesson_7/css/style.css">
 </head>
 
 <body>
-  <main>
-    <section class="book">
+
+  <section class="book">
+    <div class="container">
+
       <div class="image">
         <img src="/project/dist/lesson_7/img/book.png" alt="Обложка">
       </div>
-      <div class="book-info">
-        <h1>Истинная королева</h1>
-        <p class="author">Екатерина Арагонская</p>
-        <p class="description">«Екатерина Арагонская» — это первый роман популярного автора и известного историка
-          Элисон Уэйр, решившей
-          создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
-        <p class="price">399 р.</p>
-        <button class="purchase">Купить</button>
-        <button class="details">Узнать подробнее</button>
-      </div>
-    </section>
 
-    <div class="container"></div>
-    <section class="delivery">
+      <div class="book-wrapper">
+        <div class="book-info">
+          <h1>Истинная королева</h1>
+          <p class="author">Екатерина Арагонская</p>
+          <p class="description">«Екатерина Арагонская» — это первый роман популярного автора и известного историка
+            Элисон Уэйр, решившей
+            создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
+          <p class="price">399 р.</p>
+          <button class="purchase">Купить</button>
+          <button class="details">Узнать подробнее</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="delivery">
+    <div class="container">
       <h2>Доставка и оплата</h2>
       <div class="delivery-options">
         <div class="options">
@@ -45,10 +54,12 @@
           <p>Почтой России –<br>в любую точку страны</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    <section class="buyers">
+  <section class="buyers">
+    <div class="container">
       <h2>Кто уже купил эту книгу</h2>
       <div class="gallary">
         <div class="photos"><img class="selfi" src="/project/dist/lesson_7/img/Photo1.png" alt="Фото"></div>
@@ -60,8 +71,9 @@
         <div class="photos"><img class="selfi" src="/project/dist/lesson_7/img/Photo7.png" alt="Фото"></div>
         <div class="photos"><img class="selfi" src="/project/dist/lesson_7/img/Photo8.png" alt="Фото"></div>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+
 
 </body>
 
