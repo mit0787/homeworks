@@ -3,26 +3,103 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Сайт Дмитрия Гайдука</title>
 </head>
 
 <body>
-  <p>Ссылки на домашние задания HTML-Академии</p>
-  <a href="/project/src/lesson_3/index.html">Урок №3</a>
-  <br>
-  <a href="/project/src/lesson_4/index.html">Урок №4</a>
-  <br>
-  <a href="/project/src/lesson_5/index.html">Урок №5</a>
-  <br>
-  <a href="/project/src/lesson_6/index.html">Урок №6</a>
-  <br>
-  <a href="/project/src/lesson_7/index.html">Урок №7</a>
-  <br>
-  <a href="/project/dist/lesson_7/index.html">Урок №7 сложный</a>
-  <br>
-  <a href="/project/src/lesson_8/index.html">Урок №8</a>
+  <header>
+    <div class="container header">
+      <div class="row align-items-center">
+        <div class="photo col-4">
+          <img src="/img/photo.jpg" alt="Моё фото">
+        </div>
+
+        <div class="intro col-8">
+          <p>Меня зовут Дмитрий Гайдук и я являюсь учеником Академии верстки под управлением Артема Исламова.</p>
+          <p>На данной странице представлены мои работы.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container lessons">
+      <h2>Ссылки на решение домашних заданий Академии</h2>
+
+      <div class="d-flex flex-column">
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-4.png" alt="HTML для самых маленьких"></div>
+          <div class="description col-9">
+            <a href="/project/src/lesson_3/index.html">HTML для самых маленьких</a>
+            <p>Осваиваем язык HTML</p>
+          </div>
+        </div>
+
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-4.png" alt="Урок №4"></div>
+          <div class="description col-9">
+            <a href="/project/src/lesson_4/index.html">Урок №4</a>
+            <p>Первая верстка без применения стилей</p>
+          </div>
+        </div>
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-5.png" alt="Урок №5"></div>
+          <div class="description col-9">
+            <a href="/project/src/lesson_5/index.html">Урок №5</a>
+            <p>Осваиваем основы CSS</p>
+          </div>
+        </div>
+
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-6.png" alt="Урок №6"></div>
+          <div class="description col-9">
+            <a href="/project/src/lesson_6/index.html">Урок №6</a>
+            <p>Изучаем блочную модель CSS</p>
+          </div>
+        </div>
+
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-7.png" alt="Урок №7"></div>
+          <div class="description col-9">
+            <a href="/project/src/lesson_7/index.html">Урок №7</a>
+            <p>Вникаем в тему флексов</p>
+          </div>
+        </div>
+
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-7.png" alt="Урок №7"></div>
+          <div class="description col-9">
+            <a href="/project/dist/lesson_7/index.html">Урок №7 сложный</a>
+            <p>Тоже флексы, но немного сложнее</p>
+          </div>
+        </div>
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-8.png" alt="Урок №8"></div>
+          <div class="description col-9"><a href="/project/src/lesson_8/index.html">Урок №8</a>
+            <p>Полноценная верстка на HTML и CSS</p>
+          </div>
+        </div>
+
+        <div class="lesson row align-items-center">
+          <div class="image col-3"><img src="/img/lesson-9.png" alt="Урок №9"></div>
+          <div class="description col-9"><a href="/project/src/lesson_9/index.html">Урок №9</a>
+            <p>Проникаемся библиотекой Bootstrap 4</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
