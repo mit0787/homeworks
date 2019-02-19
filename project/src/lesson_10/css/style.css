@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #32325f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 74px;
+  padding-bottom: 191px;
+}
+
+.brand {
+  text-transform: uppercase;
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.book-wrapper {
+  margin-top: 159px;
+}
+
+.subtitle,
+.description,
+.price-tag {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  line-height: 26px;
+}
+
+.price {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about {
+  padding-top: 90px;
+  padding-bottom: 131px;
+}
+
+.features-wrap {
+  padding-top: 99px;
+}
+
+.buyers {
+  padding-top: 90px;
+  padding-bottom: 76px;
+}
+
+.gallery {
+  margin-top: 64px;
+}
+
+
+
+.footer {
+  background-color: #32325f;
+}
+
+.footer-wrap {
+  padding-top: 78px;
+  padding-bottom: 104px;
+  color: #ffffff;
+}
+
+.footer-block a {
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
