@@ -8,85 +8,85 @@
   color: #fff;
 }
 
-.main-services {
+.main-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
   padding: 50px 0;
   text-align: center;
   background-color: #006a00;
 }
 
-.services {
-  margin:auto;
-  max-width: 1280px;
+.card {
+  width: 1280px;
 }
 
-.services__title {
+.card__title {
   margin-top: 0;
   margin-bottom: 45px;
   font-size: 36px;
 }
 
-.services__subtitle {
+.card__subtitle {
   display: block;
   margin-bottom: 90px;
 }
 
-.services-list {
+.card-list {
   display: flex;
   justify-content: space-between;
 }
 
-.service-item {
+.card-list__item {
   flex-basis: 400px;
   display: flex;
   flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 45px;
   color: #1a1820;
   background-color: #fff;
 }
 
-.service-item__title {
-  margin-top: 48px;
+.card-list__title {
+  margin-top: 0;
+  margin-bottom: 33px;
   font-size: 19px;
 }
 
-.service-item__image {
-  margin-top: 13px;
-}
-
-.service-item__price {
+.card-list__price {
   margin-top: 26px;
-  margin-bottom: 26px;
+  margin-bottom: 23px;
   font-size: 19px;
   font-weight: 700;
 }
 
-.service-item__price-bold {
+.card-list__price-bold {
   font-size: 30px;
 }
 
-.service-description {
+.description-list {
   height: 135px;
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 22px;
 }
 
-.service-description__list-item {
+.description-list__item {
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-.service-description__list-item:before {
+.description-list__item:before {
   content: '✔';
   margin-right: 9px;
   color: green;
 }
 
-.service-item__button {
+.card-list__button {
   align-self: center;
   padding: 26px 59px;
-  margin-top: 22px;
-  margin-bottom: 45px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
@@ -96,20 +96,18 @@
   background-color: #ffb504;
 }
 
-.additional-services {
+.additional-card {
   padding-top: 112px;
   padding-bottom: 120px;
 }
 
-.add-service-item {
+.card-list__item_background-none {
+  padding-top: 0;
+  padding-bottom: 0;
   background: none;
 }
 
-.add-service-item__image {
-  margin-top: 0;
-}
-
-.add-service-item__button {
+.card-list__button_size-small {
   margin-top: 49px;
   margin-bottom: 0;
   padding: 18px 50px;
